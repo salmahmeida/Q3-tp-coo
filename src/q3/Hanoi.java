@@ -2,9 +2,9 @@ package q3;
 import java.util.ArrayList;
 
 // Pour le choix du parametre de genericite, voir le commentaire dans Tour.java
-public class Hanoi<??>> { 
+public class Hanoi<T> { 
 
-    protected Tour<??> depart, milieu, arrivee;
+    protected Tour<T> depart, milieu, arrivee;
 
     public Hanoi(ArrayList<??> inits) {
 	int nb = inits.size();
